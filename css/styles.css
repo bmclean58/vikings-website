@@ -1,0 +1,38 @@
+/* Welcome message styling */
+.welcome-message{
+  background-color: rgb(89, 42, 131);
+  padding: 10px;
+  color: white;
+}
+
+/* Key dates table styling*/
+.table{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table th{
+  background-color: rgb(89, 42, 131);
+  color:white;
+}
+
+/* Make slideshow a flexbox and center */
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Footer styling, set position fixed at bottom of screen */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(89, 42, 131);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 12px;
+  }
